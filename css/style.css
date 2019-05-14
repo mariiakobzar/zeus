@@ -1,0 +1,222 @@
+body{
+    max-width: 2000px;
+}
+.hero{
+    background-image: url(../img/bg-header.png);
+    background-size: cover;
+    text-align: center;
+    padding: 121px 0 100px;
+    width: 2000px;
+}
+.hero__logo{
+    height: 160px;
+    width: 160px;
+    margin-bottom: 148px;
+}
+
+.bold-title{
+    font-size: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.hero__title{
+    color: white;
+    position: relative;
+}
+
+.hero__title:before{
+    content: '';
+    border: 2px solid #cdb378;
+    width: 242px;
+    position: absolute;
+    left: 55%;
+    top: 45%;
+}
+
+.hero__title:after{
+    content: '';
+    border: 2px solid #cdb378;
+    width: 242px;
+    position: absolute;
+    left: 32.5%;
+    bottom: 45%;
+}
+
+.hero__text{
+    font-size: 36px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    margin: 25px 0;
+}
+
+.hero__author{
+    font-size: 24px;
+    font-family: 'Amiri', serif;
+    color: #cdb378;
+    font-style: italic;
+}
+
+.hero__scroll{
+    font-size: 16px;
+    font-family: 'Amiri', serif;
+    color: #cdb378;
+    font-style: italic;
+    margin-top: 320px;
+    margin-bottom: 16px;
+}
+
+.wrapper{
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 5259px;
+    width: 2000px;
+}
+
+.content{
+    padding-left: 215px;
+}
+
+.title{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 72px;
+}
+
+.text{
+    font-size: 24px;
+    font-family: 'Amiri', serif;
+    color: #cdb378;
+}
+
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #404429;
+    padding: 15px 60px 13px;
+}
+
+.main{
+    position: relative;
+    height: 840px;
+}
+
+.joy{
+    padding: 100px 749px 93px 215px;
+}
+
+.joy__text{
+    padding-top: 20px;
+}
+
+.fly-bottle img{
+    position: absolute;
+    right: 0;
+    top: -7%;
+    z-index: 0;
+}
+
+.beer-img img{
+    position: absolute;
+    top: 59px;
+    right: 460px;
+    z-index: 2;
+}
+
+.quality{
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0px;
+    left: 0;
+    background-image: url("../img/logo-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1720px;
+    height: 493px;
+    z-index: 1;
+    padding: 100px 477px 93px 215px;
+}
+
+.quality__title{
+    color: #cdb378;
+}
+
+.quality__text{
+    color: #b4ba98;
+    padding: 40px 0;
+    line-height: 2;
+}
+
+.man{
+    background-image: url("../img/man.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 885px;
+    display: flex;
+    align-items: center;
+}
+
+.man__title{
+    color: black;
+    max-width: 600px;
+    line-height: 1.5;
+    padding-left: 1180px;
+}
+
+.about{
+    position: relative;
+    height: 867px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__title{
+    color: #cdb378;
+    padding-left: 215px;
+    max-width: 600px;
+    margin-bottom: 70px;
+}
+
+.about__text{
+    color: #b4ba98;
+    line-height: 2;
+    width: 780px;
+    padding-left: 215px;
+    max-width: 680px;
+}
+
+.window-img img{
+    position: absolute;
+    top: -149px;
+    right: 0;
+}
+
+.order{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.order__title{
+    color: #cdb378;
+    text-transform: none;
+}
+
+.order__text{
+    padding: 20px 0 40px;
+}
+
+
+
